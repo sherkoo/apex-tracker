@@ -35,7 +35,6 @@ export default {
       if(!this.gamertag){
         console.log('gamertag not found');
       } else {
-        // console.log('redirect');
         this.$router.push(`/profile/${this.platform}/${this.gamertag}`);
       }
     }
