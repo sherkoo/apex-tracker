@@ -1,6 +1,6 @@
 <template lang="html">
   <header>
-    <router-link :to="{ name: 'home', params: {} }"><img :src="image"></router-link>
+    <router-link :to="{ name: 'home', params: {} }"><img :src="image" width="500"></router-link>
   </header>
 </template>
 
@@ -9,7 +9,7 @@ export default {
   name: 'Header',
   data(){
     return{
-      image: require('@/assets/logo.png')
+      image: require('@/assets/apex-logo.png')
     }
   }
 }
