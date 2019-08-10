@@ -1,6 +1,6 @@
 <template lang="html">
   <header>
-    <img :src="image">
+    <router-link :to="{ name: 'home', params: {} }"><img :src="image"></router-link>
   </header>
 </template>
 
